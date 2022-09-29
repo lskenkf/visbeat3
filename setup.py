@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-  name="visbeat3",
+  name="visbeat3_",
   version="1.0.1",
   author="Haofan Wang",
   author_email="haofanwang.ai@gmail.com",
@@ -29,7 +29,7 @@ setuptools.setup(
     ],
   scripts=['bin/dancefer'],
   include_package_data=True,
-  package_data={'data': ['visbeat3/assets/*']},
+  package_data={'data': ['visbeat3_/assets/*']},
   classifiers=[
   "Programming Language :: Python :: 3",
   "License :: OSI Approved :: Apache Software License",
