@@ -25,7 +25,7 @@ setuptools.setup(
         'termcolor',
         'youtube-dl',
         'matplotlib',
-        'opencv-python'
+        # mask it for now 'opencv-python'
     ],
   scripts=['bin/dancefer'],
   include_package_data=True,
